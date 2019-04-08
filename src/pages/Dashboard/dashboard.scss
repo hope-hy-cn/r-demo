@@ -1,0 +1,116 @@
+
+.dashboard-content {
+    .ant-row>div{
+        box-shadow: 0 1px 1px;
+        height: 280px;
+        border-radius: 8px;
+    }
+}
+.header{
+    background: #4a4f62;  
+    padding-left: 32px;
+    height: 48px;
+    line-height: 48px;
+    h3{
+        font-weight: 900;
+        color: #fff     
+    }
+}
+.ant-col-13{
+    margin: 0 32px;
+}
+.ant-col-7{
+    margin: 0 32px;
+}
+.bulletin-board{
+    height: 200px!important;
+    h2{
+        color: #fff;
+        font-weight: 100;
+        font-size: 16px;
+    }
+}
+.main-content{
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .content{
+        padding: 0 16px;
+        display: flex;
+
+        .text{
+            width:48%;
+            .ant-input:first-child{
+                margin: 16px 0;
+            }
+            .ant-input:last-child{
+                height: 148px!important;
+            }
+        }
+
+        .times{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            span{
+                margin-right: 6px;
+            }
+
+            .start-time{
+                margin: 16px 0;
+            }
+
+            .submit{
+                margin-top: 64px;
+                border-radius: 16px;
+                text-align: center;
+            }
+        }
+    }
+}
+.contacts{
+    height: 360px!important;
+    margin-top: -80px;
+}
+.ant-fullcalendar-cell{
+    height: 12px!important;
+    padding: 0!important;
+}
+.contacts{
+    padding: 0 32px;
+}
+// .ant-card-body{
+//     display: none;
+// }
+.ant-col-5 {
+    .ant-card {
+        .ant-card-body {
+            display: none;
+        }
+    }
+}
+.ant-card-actions > li:not(:last-child){
+    border: none;
+}
+.ant-card-actions{
+    border: none;
+    background: #fff;
+}
+
+.main-context{
+    margin-top: 3px;
+    p{
+        cursor: pointer;
+        height: 12px;
+        line-height: 12px;
+        font-size: 12px;
+    }
+
+    .notification{
+        margin-left: 8px;
+        margin-right: 4px;
+    }
+}

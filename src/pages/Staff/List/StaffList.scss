@@ -1,0 +1,29 @@
+.ant-table-thead tr th{
+  text-align: center;
+  white-space: nowrap;
+}
+.ant-table-tbody tr td {
+  text-align: center;
+  font-size: 10px;
+}
+.ant-table-tbody tr td:last-child {
+  white-space: nowrap
+}
+.ant-table-tbody tr td:nth-child(6) {
+  white-space: nowrap
+}
+.ant-card-head {
+  height: 48px;
+  background: #4a4f62;
+  color: #67aff7;
+}
+.ant-card-head-wrapper {
+  height: 100%;
+}
+.ant-card-head-title,.ant-card-extra {
+  padding: 0
+}
+
+.ant-table-tbody tr td:last-child {
+  white-space: normal;
+}
